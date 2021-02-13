@@ -17,7 +17,7 @@ int main()
 	int numOfTimes;
 	cout << "How many tests will you like to try? << '\n';
 	cin >> numOfTimes;
-	for ( int i = 0; i < numOfTimes; ++i){
+	for ( int i = 0; i < numOfTimes; ++i ){
 		if ( num1 >= num2){
 			cout << "What is " << num1 << " - "<< num2 << '?' << '\n';
 			cin >> answer;	
